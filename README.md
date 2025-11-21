@@ -6,7 +6,6 @@ A small Windows utility that shows the battery level of the Logitech G915 **with
 
 Minimal features, maximum usefulness: clean tray icon, battery status, proper charging indication when connected via cable.
 
----
 
 ## Features
 
@@ -22,7 +21,6 @@ Minimal features, maximum usefulness: clean tray icon, battery status, proper ch
 - Pure C# (.NET 8), no G HUB dependency
 - Runs quietly and reliably in the system tray
 
----
 
 ## Why this exists
 
@@ -36,7 +34,6 @@ Logitech G HUB is a bloated application that:
 Meanwhile, all we need is *one number*.  
 This tool does exactly that — and nothing else.
 
----
 
 ## Installation
 
@@ -54,7 +51,6 @@ bin/Release/net8.0-windows/win-x64/publish/
 
 Drop it into startup if you want.
 
----
 
 ## How it works
 
@@ -73,7 +69,6 @@ Therefore, the tray only shows:
 
 This matches G HUB behavior, minus all the unnecessary baggage.
 
----
 
 ## Project structure
 
@@ -94,7 +89,6 @@ BatteryTray/
      └── 4.ico   (full)
 ```
 
----
 
 ## .gitignore
 
@@ -111,7 +105,6 @@ obj/
 publish/
 ```
 
----
 
 ## License
 
