@@ -1,0 +1,28 @@
+bin/
+obj/
+*.user
+*.pdb
+*.log
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.suo
+*.tmp
+*.lock
+*.Backup
+*.local
+
+# VS/VSCode
+.vs/
+.vscode/
+
+# Dotnet
+*.dll
+*.exe
+*.json
+*.deps.json
+*.runtimeconfig.json
+
+# Publish
+publish/
