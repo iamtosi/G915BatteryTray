@@ -13,7 +13,7 @@ public static class HidLogitech
     public static string? GetBatteryG915()
     {
         if (IsWired())
-            return "⚡ charging";
+            return "⚡";
 
         int? raw = ReadBattery(PID_WIRELESS);
         if (!raw.HasValue) return null;
